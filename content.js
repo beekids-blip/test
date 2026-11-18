@@ -9,14 +9,7 @@ const SITE = {
 
   // 作品畫廊（精選作品會顯示在首頁，最新的放最前面）
  works: [
-  { image: "images/0002.jpg", title: "拉芙U", author: "焦慮到變形但還是很滿足", featured: true  },
-  { image: "images/0005.jpg", title: "爆", author: "煩死了", featured: true },
-  { image: "images/0006.jpg", title: "無助的紅髮老師", author: "早上小組好吵控制不了", featured: false },
-  { image: "images/0007.jpg", title: "雜毛精靈", author: "心事很多但很複雜", featured: true },
-  { image: "images/0008.jpg", title: "鼻涕", author: "", featured: true },
-  { image: "images/0009.jpg", title: "緊張", author: "要開會", featured: false },
-  { image: "images/0010.jpg", title: "", author: "灰色", featured: false },
-  { image: "images/0012.jpg", title: "啥都不知", author: "不知道在焦慮甚麼", featured: false }
+ 
   ],
 
  // 本輪得獎名單
