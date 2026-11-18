@@ -371,7 +371,7 @@
     function workHTML(list,empty){return list.length?'<div class="works">'+list.map(w=>`<div class="work"><img loading="lazy" src="${esc(w.image)}" alt="${esc(w.title||'')}">
 <div>${w.title?'<div class="w-title"><span class="w-pre">牠是</span><b>'+esc(w.title)+'</b></div>':''}${w.author?'<div class="w-why"><span class="w-pre">因為</span>'+esc(w.author)+'</div>':''}</div>    </div>`).join('')+'</div>':`<div class="empty">${empty}</div>`}
     $('deadline').textContent=SITE.deadline;
-const SHEET_CSV="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrGjGSv1kKdXifFP7L04CCUyZxNcpTSYpehr2RO5MLwcVO38n6Py9gjrm6x-vUbQxmBkTej0Fwhcrq/pubhtml?gid=327524789&single=true";
+const SHEET_CSV="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrGjGSv1kKdXifFP7L04CCUyZxNcpTSYpehr2RO5MLwcVO38n6Py9gjrm6x-vUbQxmBkTej0Fwhcrq/pub?gid=327524789&single=true&output=csv";
 function parseCSV(t){const r=[];let row=[],c='',q=false;
 for(let i=0;i<t.length;i++){const ch=t[i];
 if(q){if(ch=='"'){if(t[i+1]=='"'){c+='"';i++}else q=false}else c+=ch}
